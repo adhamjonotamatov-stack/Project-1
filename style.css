@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #55c57a;
+  --primary-color-light: #7ed567;
+  --primary-color-dark: #28b485;
+
+  --color-secondary-light: #ffb900;
+  --color-secondary-dark: #ff7730;
+
+  --color-third-light: #2998ff;
+  --color-third-dark: #5643fa;
+  -color-grey-light: #eee;
+  --color-grey-dark: #777;
+  --aliceblue: #fff;
+  --color-grey-light1: #f7f7f7;
+  --color-grey-dark2: #999;
+  --color-grey-dark3: #333;
+  --color-black: #000;
+
+  --grid-width: 114rem;
+  --gutter-vertical: 8rem;
+  --gutter-vertical-small: 6rem;
+  --gutter-horizontal: 6rem;
+}
+.cards {
+  width: 100%;
+  padding: 20px;
+}
+.card {
+  background: url("img/newYork.jpg") center / cover no-repeat;
+  clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+  width: 100%;
+  height: 100vh;
+}
+.card-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-inner-title {
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: var(--aliceblue);
+  font-family: "Goldman", cursive;
+  margin: 10% 0 0 0;
+}
+.card-inner-text {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  color: var(--aliceblue);
+  font-family: "Goldman", cursive;
+}
+.card-inner-link {
+  padding: 25px 50px;
+  background: var(--aliceblue);
+  margin-top: 40px;
+  border: none;
+  border-radius: 20px;
+}
+.card-inner-link a {
+  color: var(--color-grey-dark);
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Goldman", cursive;
+}
+.heders {
+  width: 100%;
+}
+.heder {
+}
+.heder-title {
+  display: flex;
+  justify-content: center;
+  margin: 12% 0 5% 0;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-family: "Goldman", cursive;
+  letter-spacing: 0.1em;
+  color: #55c57a;
+}
+.heder-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 20%;
+}
