@@ -87,8 +87,17 @@
   letter-spacing: 0.1em;
   color: #55c57a;
 }
-.heder-inner {
+.heder-cup {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-left: 20%;
+  margin: 0 15%;
+}
+.heder-inner {
+}
+.heder-inner-chap-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Goldman", cursive;
+  color: var(--color-grey-dark);
+  margin-bottom: 25px;
 }
